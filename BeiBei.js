@@ -17,6 +17,12 @@ $(function(){
 	
 
 function change_page(page_number){
+	var container = document.getElementById("__Page__menu__container");
+	if(page_number==0 |page_number==1 |page_number==3 |page_number==4){
+		container.style.display = "flex";
+	}else{
+		container.style.display = "none";
+	}
 	$($li. eq(page_number) .find('a'). attr ('href')).show().siblings ('.tab-inner').hide();
 	$li. eq(page_number) .addClass('active'). siblings ('.active').removeClass('active');
 	menu_openorclose(1);
@@ -33,6 +39,7 @@ function add_checkbox(){
 	checkboxs.id = "__Page6__bill_content";
 	checkboxs.onclick = function(){
 	 //you want event
+	/* checkboxs.color="black"*/
 	}
 	
 	// initialize

@@ -27,7 +27,7 @@ body {
 
 #__Page__menu__container {
 	height: 8vh;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	position:fixed;
 	z-index:2;
@@ -444,3 +444,21 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+
+/*
+input[type=checkbox] {
+	display: none;
+}
+input[type=checkbox]+label {
+	display: inline-block;
+	background-color: #aaa;
+	padding: 3px 6px;
+	border: 1px solid gray;
+	color: #444;
+	user-select: none; 
+}
+
+input[type=checkbox]:checked+label {
+	color: yellow;
+	background-color: #444;
+}*/
