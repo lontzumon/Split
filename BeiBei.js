@@ -65,6 +65,18 @@ function add_person(){
 
 }	
 
+function add_notification(){
+	var container = document.getElementById("__Page7__inform__container");
+	var label = document.createElement("label");
+	label.id = "delete_id";
+	label.classList.add("__Page7__inform");
+	var br = document.createElement('br');
+	container.appendChild(label);
+	label.appendChild(document.createTextNode("5/13 啟賢新增了水費項目"));
+	label.appendChild(br);
+
+}	
+
 function delete_checkbox(){
 	var delete_item = document.getElementById("delete_id");
 	var inputParent = delete_item.parentNode;
