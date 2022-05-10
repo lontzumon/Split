@@ -69,6 +69,8 @@ body {
 }
 
 .__Page__menualter{
+	height: 5vw;
+    width: 5vw;
 	margin-top: calc(15vh);
 }
 
@@ -86,7 +88,7 @@ body {
 
 #__Page__menu__home,#__Page__menu__check,#__Page__menu__result_check,#__Page__menu__funny,#__Page__menu__pocket_check,#__Page__menu__about_us{
 	width: 70vw;
-	height: 10vh;
+	height: 12vh;
 }
 .__Page__menu__head_word{
 	font: 5vw Helvetica bold Condensed;
@@ -278,6 +280,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#__Page18__result3__container{
+	padding-top: 58vh;
 }
 
 #__Page18__result3-2__container{
