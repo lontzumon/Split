@@ -58,6 +58,27 @@ function add_checkbox(){
 
 }
 
+function add_checkbox2(){
+	var container = document.getElementById("__Page6__bill__container");
+	
+	var checkboxs = document.createElement("div");
+	checkboxs.id = "__Page6__bill_content2";
+	
+	// initialize
+	var label = document.createElement("label");
+	label.id = "delete_id";
+	label.classList.add("__Page6__bill_check");
+	
+	
+	var br = document.createElement("br");
+	
+	container.appendChild(label);
+	label.appendChild(checkboxs);
+	label.appendChild(document.createTextNode("4/31 COCO"+price));
+	label.appendChild(br);
+	price++;
+}
+
 function add_person(){
 	var container = document.getElementById("__Page16__teammate__container");
 	var label = document.createElement("label");

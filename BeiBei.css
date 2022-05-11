@@ -164,6 +164,19 @@ body {
 	margin-top: 2vh;
 }
 
+#__Page6__bill_content2 {
+	width: 6vw;
+    height: 6vw;
+    display: inline-flex;
+    position: relative;
+    top: calc(1vw + 4.5px);
+    margin-right: 5vw;
+    margin-top: 2vh;
+    background: #6BDCFF;
+    border: 4.5px solid #000000;
+    border-radius: 4px;
+}
+
 #__Page6__bill__container {
 	width: 95vw;
 	height: 43vh;
@@ -450,6 +463,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+
 
 /*
 input[type=checkbox] {
