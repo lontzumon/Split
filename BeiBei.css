@@ -227,7 +227,7 @@ body {
     text-align: center;
 }
 
-#__Page7__inform__bar {
+#__Page7__inform__bar,#__Page18__inform__bar {
 	background-image: url(./midterm_icon/notification.png);
     background-size: 80vw 30vh;
     background-position: center;
@@ -380,6 +380,15 @@ body {
     border: 3px solid #000000;
 	box-shadow: 1vw 1vw 0px #000000;
     border-radius: 10px;
+}
+#__Page18__inform {
+	display: flex;
+	margin: 14.5vh 10.8vw 0;
+    /*margin: 14.5vh 11vw 0;*/
+}
+.__Page18__inform__noteimg {
+    height: 24.8vh;
+    width: 77vw;
 }
 
 #__Page16__pocket__container {
